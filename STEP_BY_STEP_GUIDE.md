@@ -464,5 +464,3 @@ If you encounter issues:
 2. Verify all dependencies are installed
 3. Ensure the FAISS index is built before running the API
 4. Review the example code in this guide
-
-Good luck with your RAG system! 🚀
