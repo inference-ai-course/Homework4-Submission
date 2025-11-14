@@ -109,37 +109,94 @@ class RAGClass:
         
         self.agent = create_agent(self.model, tools=[], middleware=[prompt_with_context])
 
-    def answer_query(self, query: str):
+    def answer_query(self, query: str, verbose: bool = True):
         """
-        Answers a query using the QA chain.
-        Returns the answer string.
+        Answers a query using the agent.
+        
+        Args:
+            query: The question to answer
+            verbose: If True, prints the query and answer. Default is True.
+        
+        Returns:
+            str: The answer string
         """
+        if self.agent is None:
+            raise ValueError("Agent not initialized. Please call create_my_agent() first.")
+        
         result = None
         for step in self.agent.stream(
             {"messages": [{"role": "user", "content": query}]},
             stream_mode="values",
         ):
             result = step["messages"][-1].content
-        print(f"Query: {query}Answer: {result}")
+        
+        if verbose:
+            print(f"Query: {query}\nAnswer: {result}")
+        
         return result
 
     def evaluate(self, queries: list, ground_truths: list):
         """
         Evaluates the QA system using a list of queries and ground truths.
-        Returns the accuracy as a float.
+        
+        Args:
+            queries: List of query strings to evaluate
+            ground_truths: List of expected answer strings (ground truth)
+        
+        Returns:
+            float: Accuracy score between 0.0 and 1.0
         """
         if len(queries) != len(ground_truths):
             raise ValueError("Queries and ground truths must be of the same length.")
-        if self.qa_chain is None:
-            raise ValueError("QA chain not initialized.")
+        
+        if self.agent is None:
+            raise ValueError("Agent not initialized. Please call create_my_agent() first.")
+        
+        if self.retriever is None:
+            raise ValueError("Retriever not initialized. Please call setup_retriever() first.")
+        
         correct = 0
-        for idx, (query, truth) in enumerate(zip(queries, ground_truths)):
-            answer = self.qa_chain.run(query)
-            print(f"Query {idx+1}: {query}Expected: {truth}Model Answer: {answer}")
-            if truth.lower() in answer.lower():
+        results = []
+        
+        print(f"\n{'='*60}")
+        print(f"Evaluating {len(queries)} queries...")
+        print(f"{'='*60}\n")
+        
+        for idx, (query, truth) in enumerate(zip(queries, ground_truths), 1):
+            # Get answer from the agent (suppress verbose output during evaluation)
+            answer = self.answer_query(query, verbose=False)
+            
+            # Check if ground truth is in the answer (case-insensitive)
+            is_correct = truth.lower() in answer.lower() if answer else False
+            
+            if is_correct:
                 correct += 1
-        accuracy = correct / len(queries)
-        print(f"Evaluation Accuracy: {accuracy * 100:.2f}%")
+            
+            results.append({
+                'query': query,
+                'expected': truth,
+                'answer': answer,
+                'correct': is_correct
+            })
+            
+            # Display result
+            status = "✓ CORRECT" if is_correct else "✗ INCORRECT"
+            print(f"Query {idx}: {query}")
+            print(f"Expected: {truth}")
+            print(f"Answer: {answer}")
+            print(f"Status: {status}")
+            print("-" * 60)
+        
+        accuracy = correct / len(queries) if queries else 0.0
+        
+        print(f"\n{'='*60}")
+        print(f"Evaluation Results:")
+        print(f"  Total Queries: {len(queries)}")
+        print(f"  Correct: {correct}")
+        print(f"  Incorrect: {len(queries) - correct}")
+        print(f"  Accuracy: {accuracy * 100:.2f}%")
+        print(f"{'='*60}\n")
+        
         return accuracy
 
 
