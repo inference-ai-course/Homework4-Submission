@@ -103,7 +103,7 @@ class RAGClass:
             last_query = request.state["messages"][-1].text
             docs_content = self._get_rag_context(last_query)
             return (
-                "You are a helpful assistant. Use the following context in your response:"
+                "You are a helpful assistant. You must use the following context in your response:"
                 f"\n\n{docs_content}"
             )
         
@@ -200,7 +200,7 @@ class RAGClass:
         return accuracy
 
 
-rag = RAGClass(data_path="my_text_file.txt")
+rag = RAGClass(data_path="./lecture/my_text_file.txt")
 
 # Load and process documents
 rag.load_documents()
@@ -212,5 +212,5 @@ rag.answer_query("What is Retrieval-Augmented Generation?")
 
 # Evaluate the system with sample queries and ground truths
 sample_queries = ["Define RAG.", "Explain vector databases."]
-sample_ground_truths = ["Retrieval-Augmented Generation", "Vector databases store embeddings"]
+sample_ground_truths = ["Retrieval-Augmented Generation", "Vector databases are specialized storage systems designed to efficiently store and query large collections of numerical vectors, such as text embeddings."]
 rag.evaluate(sample_queries, sample_ground_truths)

@@ -1,5 +1,7 @@
 Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with text generation. It enhances the capabilities of language models by providing them with access to external knowledge sources.
 
+Vector databases are specialized storage systems designed to efficiently store and query large collections of numerical vectors, such as text embeddings. These vectors represent semantic meanings of text data, capturing characteristics like word order, context, and relationships.
+
 Text embeddings are numerical representations of text that capture semantic meaning. They are used to measure similarity between pieces of text.
 
 Vector databases store these embeddings and allow for efficient similarity searches.
