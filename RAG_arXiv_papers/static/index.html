@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arXiv Papers Query</title>
+</head>
+<body>
+
+    <div style="padding: 20px;">
+        <label for="query_text">Query:</label>
+        <input type="text" id="query_text" 
+                style="width: 400px;"
+                placeholder="Type questions about arXiv cs.CL papers">
+        <button type="button" onclick="doSearch()">Search</button>
+        <button type="button" id="clearBtn">Clear</button>
+    </div>
+
+    <div id="resultBox"></div>
+
+    <script>
+        const input = document.getElementById('query_text')
+        const output = document.getElementById('resultBox')
+
+        async function doSearch() {
+            output.textContent = '';
+            const response = await fetch('/api/search?q=' + input.value);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const result = await response.json();
+            output.textContent = JSON.stringify(result);
+        }
+
+        clearBtn.addEventListener('click', function() {
+            input.value = '';
+            input.focus();
+            output.textContent = '';
+        });
+
+    </script>
+
+</body>
+</html>
