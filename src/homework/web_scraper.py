@@ -1,11 +1,9 @@
 import requests
 import trafilatura
 import time
-import json
 import os
 from urllib.parse import urljoin
 import logging
-import re
 from bs4 import BeautifulSoup
 
 # Set up logging
@@ -161,25 +159,25 @@ class ArxivScraper:
         except Exception as e:
             logger.error(f"Error saving articles to {filename}: {str(e)}")
 
-def main():
-    """
-    Main function to run the scraper
-    """
-    # URLs to scrape
-    list_urls = [
-        "https://arxiv.org/list/econ.EM/recent"
-    ]
+# def main():
+#     """
+#     Main function to run the scraper
+#     """
+#     # URLs to scrape
+#     list_urls = [
+#         "https://arxiv.org/list/econ.EM/recent"
+#     ]
     
-    # Initialize scraper with 2-second delay between requests
-    scraper = ArxivScraper(delay=2)
+#     # Initialize scraper with 2-second delay between requests
+#     scraper = ArxivScraper(delay=2)
     
-    # Scrape articles
-    articles = scraper.scrape_articles_from_lists(list_urls, 'arxiv_articles.text')
+#     # Scrape articles
+#     articles = scraper.scrape_articles_from_lists(list_urls, './homework/arxiv_articles.text')
     
-    # Print summary
-    print(f"\n=== Scraping Summary ===")
-    print(f"Total articles scraped: {len(articles)}")
-    print(f"Results saved to: arxiv_articles.text")
+#     # Print summary
+#     print(f"\n=== Scraping Summary ===")
+#     print(f"Total articles scraped: {len(articles)}")
+#     print(f"Results saved to: arxiv_articles.text")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

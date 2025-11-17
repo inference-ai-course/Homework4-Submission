@@ -1,4 +1,5 @@
 import os
+import numpy as np
 from langchain_core.documents import Document
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import Chroma
@@ -7,6 +8,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.agents.middleware import dynamic_prompt, ModelRequest
 from langchain.agents import create_agent
 from dotenv import load_dotenv, find_dotenv
+import faiss
 
 # Load .env from the current working directory upward and override placeholders
 # _env_path = find_dotenv(usecwd=True)
@@ -198,6 +200,64 @@ class RAGClass:
         print(f"{'='*60}\n")
         
         return accuracy
+
+
+def convert_text_to_embeddings_with_faiss(texts, embedding_model=None, index_type="flat"):
+    """
+    Converts text to embeddings and indexes them using FAISS.
+    
+    Args:
+        texts: A list of text strings or a single text string to convert to embeddings
+        embedding_model: An embedding model instance (e.g., OllamaEmbeddings). 
+                        If None, uses OllamaEmbeddings with "llama3" model.
+        index_type: Type of FAISS index to create. Options: "flat" (exact search) or "l2" (L2 distance).
+                   Default is "flat".
+    
+    Returns:
+        tuple: (faiss_index, embeddings) where:
+            - faiss_index: A FAISS index containing the embeddings
+            - embeddings: A numpy array of the embeddings
+    
+    Example:
+        >>> texts = ["Hello world", "FAISS is great"]
+        >>> index, embeddings = convert_text_to_embeddings_with_faiss(texts)
+        >>> # Search for similar vectors
+        >>> query_embedding = embedding_model.embed_query("Hello")
+        >>> distances, indices = index.search(np.array([query_embedding]), k=2)
+    """
+    
+    # Convert single string to list
+    if isinstance(texts, str):
+        texts = [texts]
+    
+    # Initialize embedding model if not provided
+    if embedding_model is None:
+        embedding_model = OllamaEmbeddings(model="llama3")
+    
+    # Convert texts to embeddings
+    print(f"Converting {len(texts)} text(s) to embeddings...")
+    embeddings = embedding_model.embed_documents(texts)
+    embeddings = np.array(embeddings).astype('float32')
+    
+    # Get embedding dimension
+    dimension = embeddings.shape[1]
+    
+    # Create FAISS index
+    if index_type == "flat":
+        # Flat index for exact search (L2 distance)
+        index = faiss.IndexFlatL2(dimension)
+    elif index_type == "l2":
+        # Same as flat for L2 distance
+        index = faiss.IndexFlatL2(dimension)
+    else:
+        raise ValueError(f"Unknown index_type: {index_type}. Use 'flat' or 'l2'.")
+    
+    # Add embeddings to the index
+    index.add(embeddings)
+    
+    print(f"Created FAISS index with {index.ntotal} vectors of dimension {dimension}")
+    
+    return index, embeddings
 
 
 rag = RAGClass(data_path="./lecture/my_text_file.txt")
