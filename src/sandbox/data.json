@@ -1,0 +1,1758 @@
+{
+    "businesses": [
+        {
+            "id": "x0DX2qsBTikXJSDRVex15Q",
+            "alias": "jubba-san-jose",
+            "name": "Jubba",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/l16n_oK-H8pVQL_xBHshog/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/jubba-san-jose?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 1527,
+            "categories": [
+                {
+                    "alias": "african",
+                    "title": "African"
+                },
+                {
+                    "alias": "halal",
+                    "title": "Halal"
+                },
+                {
+                    "alias": "somali",
+                    "title": "Somali"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.257396,
+                "longitude": -121.860752
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "5330 Terner Way",
+                "address2": "Ste 40",
+                "address3": "",
+                "city": "San Jose",
+                "zip_code": "95136",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5330 Terner Way",
+                    "Ste 40",
+                    "San Jose, CA 95136"
+                ]
+            },
+            "phone": "+14084401504",
+            "display_phone": "(408) 440-1504",
+            "distance": 8512.214726297489,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://www.jubbasomalirestaurant.top/menu",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "srBchC4ngf1sRefmSGseJA",
+            "alias": "walia-ethiopian-cuisine-san-jose",
+            "name": "Walia Ethiopian Cuisine",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Di0caqS1l-EtB996Kgz3wg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/walia-ethiopian-cuisine-san-jose?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 1757,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.3,
+            "coordinates": {
+                "latitude": 37.322462,
+                "longitude": -121.932442
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2208 Business Cir",
+                "address2": "",
+                "address3": "",
+                "city": "San Jose",
+                "zip_code": "95128",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2208 Business Cir",
+                    "San Jose, CA 95128"
+                ]
+            },
+            "phone": "+14087729113",
+            "display_phone": "(408) 772-9113",
+            "distance": 4276.911206815843,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1500",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2100",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "1500",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2100",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "1500",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2100",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "1500",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2100",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "1500",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2130",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2100",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": false
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "http://www.waliaethiopian.com/menu",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "A6anVBK6BFH79it79ddxvg",
+            "alias": "swahili-spot-oakland",
+            "name": "Swahili Spot",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ev89Y1CtufMVMUitgWApoQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/swahili-spot-oakland?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 24,
+            "categories": [
+                {
+                    "alias": "african",
+                    "title": "African"
+                },
+                {
+                    "alias": "catering",
+                    "title": "Caterers"
+                }
+            ],
+            "rating": 4.6,
+            "coordinates": {
+                "latitude": 37.81123729999999,
+                "longitude": -122.2942491
+            },
+            "transactions": [],
+            "location": {
+                "address1": "1327 Peralta St",
+                "address2": null,
+                "address3": "",
+                "city": "Oakland ",
+                "zip_code": "94507",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1327 Peralta St",
+                    "Oakland , CA 94507"
+                ]
+            },
+            "phone": "+15109789495",
+            "display_phone": "(510) 978-9495",
+            "distance": 64382.89276022582,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1700",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1700",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1700",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://www.swahilispot.com/menu",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "6RD33qPwBS6j3ggo84J4iA",
+            "alias": "bissap-baobab-san-francisco-3",
+            "name": "Bissap Baobab",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/cTlJb0kgRgAHCysqpuqV8Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bissap-baobab-san-francisco-3?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 986,
+            "categories": [
+                {
+                    "alias": "senegalese",
+                    "title": "Senegalese"
+                },
+                {
+                    "alias": "danceclubs",
+                    "title": "Dance Clubs"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 3.8,
+            "coordinates": {
+                "latitude": 37.761095,
+                "longitude": -122.419098
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2243 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2243 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158269287",
+            "display_phone": "(415) 826-9287",
+            "distance": 67062.1265784932,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1730",
+                            "end": "2200",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1730",
+                            "end": "2200",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": true,
+                            "start": "1730",
+                            "end": "0200",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": true,
+                            "start": "1730",
+                            "end": "0200",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1730",
+                            "end": "2200",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": false
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://bissapbaobab.com/menus",
+                "open24_hours": null,
+                "waitlist_reservation": true
+            }
+        },
+        {
+            "id": "eH_WjJGOfBvvadk-RKJRFw",
+            "alias": "254-royellow-kiosk-richmond",
+            "name": "254 Royellow Kiosk",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/6X6eXbvplS9TGYR1F309tQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/254-royellow-kiosk-richmond?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "catering",
+                    "title": "Caterers"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 37.9604187011719,
+                "longitude": -122.343818664551
+            },
+            "transactions": [],
+            "location": {
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "city": "Richmond",
+                "zip_code": "94806",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "Richmond, CA 94806"
+                ]
+            },
+            "phone": "+19254287197",
+            "display_phone": "(925) 428-7197",
+            "distance": 82287.82598017548,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "0900",
+                            "end": "1800",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0900",
+                            "end": "1800",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0900",
+                            "end": "1800",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0900",
+                            "end": "1800",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0900",
+                            "end": "1800",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1600",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1800",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "LIrOVza68sOIGw9-bWqqSQ",
+            "alias": "cafe-colucci-oakland",
+            "name": "Cafe Colucci",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/yubejU0rcU0gAd2v7t7Qvg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cafe-colucci-oakland?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 1385,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                }
+            ],
+            "rating": 4.2,
+            "coordinates": {
+                "latitude": 37.84187118139544,
+                "longitude": -122.28371087887068
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5849 San Pablo Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Oakland",
+                "zip_code": "94608",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5849 San Pablo Ave",
+                    "Oakland, CA 94608"
+                ]
+            },
+            "phone": "+15106017999",
+            "display_phone": "(510) 601-7999",
+            "distance": 66735.92373507582,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2200",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2200",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1500",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2200",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1500",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2200",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1500",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2200",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1500",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2200",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "1500",
+                            "day": 6
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2200",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": false
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://cafecolucci.com/menu",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "6zXVo_uK_GVqN3Z0t5KFHQ",
+            "alias": "club-waziema-san-francisco",
+            "name": "Club Waziema",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/jby0Yer6JnFI2MaxhC50LQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/club-waziema-san-francisco?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 409,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "lounges",
+                    "title": "Lounges"
+                },
+                {
+                    "alias": "musicvenues",
+                    "title": "Music Venues"
+                }
+            ],
+            "rating": 3.6,
+            "coordinates": {
+                "latitude": 37.77462,
+                "longitude": -122.43805
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "543 Divisadero St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "543 Divisadero St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14153466641",
+            "display_phone": "(415) 346-6641",
+            "distance": 69295.8556007297,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": true,
+                            "start": "1800",
+                            "end": "0200",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": true,
+                            "start": "1800",
+                            "end": "0200",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": true,
+                            "start": "1800",
+                            "end": "0200",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": true,
+                            "start": "1800",
+                            "end": "0200",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": true,
+                            "start": "1800",
+                            "end": "0200",
+                            "day": 5
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": false
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://www.clubwaziemasf.com/menus",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "Rh99yfhMEo9Lbi572Rxbjw",
+            "alias": "zeni-ethiopian-restaurant-san-jose",
+            "name": "Zeni Ethiopian Restaurant",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/WyRn8R-vMfBnEQhi-Zle7Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/zeni-ethiopian-restaurant-san-jose?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 2071,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 37.3002389773265,
+                "longitude": -121.980538245536
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1320 Saratoga Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Jose",
+                "zip_code": "95129",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1320 Saratoga Ave",
+                    "San Jose, CA 95129"
+                ]
+            },
+            "phone": "+14086158282",
+            "display_phone": "(408) 615-8282",
+            "distance": 9097.489167099735,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2030",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2030",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2030",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2030",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2030",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2030",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "u6AFSw9Hawsjhf7hmFdoSg",
+            "alias": "new-eritrea-restaurant-and-bar-san-francisco",
+            "name": "New Eritrea Restaurant & Bar",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/0TPi6FbCuRjbrnQn3Rqr_A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/new-eritrea-restaurant-and-bar-san-francisco?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 947,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "eritrean",
+                    "title": "Eritrean"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 4.3,
+            "coordinates": {
+                "latitude": 37.76384,
+                "longitude": -122.46764
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "907 Irving St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "907 Irving St",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14156811288",
+            "display_phone": "(415) 681-1288",
+            "distance": 70334.37874791783,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1600",
+                            "end": "2130",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1600",
+                            "end": "2130",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1600",
+                            "end": "2130",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1600",
+                            "end": "2130",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1600",
+                            "end": "2130",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1600",
+                            "end": "2100",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": false
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "http://www.neweritrearestaurant.com/our-menu.html",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "UI2u8LLnmAkc8MRuq9UGCQ",
+            "alias": "mudai-ethiopian-restaurant-san-jose",
+            "name": "Mudai Ethiopian Restaurant",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/fKrE9j7MY9VNjdzoih_ZxQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mudai-ethiopian-restaurant-san-jose?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 603,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "african",
+                    "title": "African"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.1,
+            "coordinates": {
+                "latitude": 37.32587,
+                "longitude": -121.89882
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "503 W San Carlos St",
+                "address2": "",
+                "address3": "",
+                "city": "San Jose",
+                "zip_code": "95126",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "503 W San Carlos St",
+                    "San Jose, CA 95126"
+                ]
+            },
+            "phone": "+14082922282",
+            "display_phone": "(408) 292-2282",
+            "distance": 1335.723590829179,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2100",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://www.mudaiethiopianrestaurant.com/menus",
+                "open24_hours": null,
+                "waitlist_reservation": true
+            }
+        },
+        {
+            "id": "H7sRmzzUj1hfqCdOivem2g",
+            "alias": "teranga-san-francisco-3",
+            "name": "Teranga",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ykw0xDVvnXUo0xdXa-ss1A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/teranga-san-francisco-3?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 45,
+            "categories": [
+                {
+                    "alias": "senegalese",
+                    "title": "Senegalese"
+                }
+            ],
+            "rating": 4.7,
+            "coordinates": {
+                "latitude": 37.79524515990169,
+                "longitude": -122.39620880985642
+            },
+            "transactions": [],
+            "location": {
+                "address1": "4 Embarcadero Ctr",
+                "address2": null,
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94111",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4 Embarcadero Ctr",
+                    "San Francisco, CA 94111"
+                ]
+            },
+            "phone": "+14158798372",
+            "display_phone": "(415) 879-8372",
+            "distance": 68463.75171035585,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1030",
+                            "end": "1500",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1030",
+                            "end": "1500",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1030",
+                            "end": "1500",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1030",
+                            "end": "1500",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1030",
+                            "end": "1500",
+                            "day": 4
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": false
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://terangafoods.square.site/",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "eGyLFp5WSIk9kPuvA7dOWw",
+            "alias": "red-sea-restaurant-and-bar-oakland",
+            "name": "Red Sea Restaurant and Bar",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/X8a6XT69r9UCZl_0dVB_nw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/red-sea-restaurant-and-bar-oakland?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 284,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "eritrean",
+                    "title": "Eritrean"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 3.8,
+            "coordinates": {
+                "latitude": 37.83829,
+                "longitude": -122.26126
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5200 Claremont Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Oakland",
+                "zip_code": "94618",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5200 Claremont Ave",
+                    "Oakland, CA 94618"
+                ]
+            },
+            "phone": "+15106553757",
+            "display_phone": "(510) 655-3757",
+            "distance": 65376.27214939142,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2200",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2200",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2200",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2200",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2200",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2200",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1200",
+                            "end": "2200",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "TDG3DA5JtG3fdt4tqYJ94g",
+            "alias": "sheba-piano-lounge-san-francisco",
+            "name": "Sheba Piano Lounge",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ndYiQ6MWjdnGFNTqJMgrvg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sheba-piano-lounge-san-francisco?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 719,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "jazzandblues",
+                    "title": "Jazz & Blues"
+                },
+                {
+                    "alias": "pianobars",
+                    "title": "Piano Bars"
+                }
+            ],
+            "rating": 4.2,
+            "coordinates": {
+                "latitude": 37.7827436889299,
+                "longitude": -122.432839788504
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1419 Fillmore St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94115",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1419 Fillmore St",
+                    "San Francisco, CA 94115"
+                ]
+            },
+            "phone": "+14154407414",
+            "display_phone": "(415) 440-7414",
+            "distance": 69622.99430662037,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2300",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2300",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2300",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2300",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1700",
+                            "end": "2300",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": false
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "xXkIj4-zyPZM8g_3zvcvSw",
+            "alias": "cafe-eritrea-d-afrique-oakland-4",
+            "name": "Cafe Eritrea D'Afrique",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/6iiiBMruxhWF65TikEQv7A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cafe-eritrea-d-afrique-oakland-4?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 265,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "african",
+                    "title": "African"
+                },
+                {
+                    "alias": "eritrean",
+                    "title": "Eritrean"
+                }
+            ],
+            "rating": 4.2,
+            "coordinates": {
+                "latitude": 37.82985,
+                "longitude": -122.26464
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4069 Telegraph Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Oakland",
+                "zip_code": "94609",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4069 Telegraph Ave",
+                    "Oakland, CA 94609"
+                ]
+            },
+            "phone": "+15105474520",
+            "display_phone": "(510) 547-4520",
+            "distance": 64703.96029720651,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://cafeeritreadafrique.com/menu",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "CVM5Jk5ilbOadCnpqioAuw",
+            "alias": "1-oz-coffee-santa-clara-2",
+            "name": "1 Oz Coffee",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/UbHtXDksMBN1ym14X_j2UA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/1-oz-coffee-santa-clara-2?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 461,
+            "categories": [
+                {
+                    "alias": "catering",
+                    "title": "Caterers"
+                }
+            ],
+            "rating": 4.4,
+            "coordinates": {
+                "latitude": 37.40462092132546,
+                "longitude": -121.98284867407388
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3051 Tasman Dr",
+                "address2": null,
+                "address3": "",
+                "city": "Santa Clara",
+                "zip_code": "95054",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3051 Tasman Dr",
+                    "Santa Clara, CA 95054"
+                ]
+            },
+            "phone": "+16502548555",
+            "display_phone": "(650) 254-8555",
+            "distance": 11850.967130736235,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "0700",
+                            "end": "1600",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0700",
+                            "end": "1600",
+                            "day": 1
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0700",
+                            "end": "1600",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0700",
+                            "end": "1600",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0700",
+                            "end": "1600",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0700",
+                            "end": "1600",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "0700",
+                            "end": "1600",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "waitlist_reservation": false
+            }
+        },
+        {
+            "id": "xkTx2lxZQptqxNeCBCaArA",
+            "alias": "tadu-ethiopian-kitchen-san-francisco-3",
+            "name": "Tadu Ethiopian Kitchen",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/dl-oLCqIJNcODesf352uug/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tadu-ethiopian-kitchen-san-francisco-3?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 692,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                }
+            ],
+            "rating": 4.6,
+            "coordinates": {
+                "latitude": 37.784826,
+                "longitude": -122.414185
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "484 Ellis St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "484 Ellis St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14154096649",
+            "display_phone": "(415) 409-6649",
+            "distance": 68662.44741249227,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "1600",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "1600",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "1500",
+                            "day": 4
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": false
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "http://taduethiopiankitchen.com/menu/",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "6UlAWuze-Tl-fUzOAKYDuw",
+            "alias": "aspen-affiliates-san-francisco",
+            "name": "Aspen Affiliates",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/aspen-affiliates-san-francisco?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 1,
+            "categories": [],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 37.7916166,
+                "longitude": -122.4399866
+            },
+            "transactions": [],
+            "location": {
+                "address1": "2723 Jackson St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94115",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2723 Jackson St",
+                    "San Francisco, CA 94115"
+                ]
+            },
+            "phone": "+14159826475",
+            "display_phone": "(415) 982-6475",
+            "distance": 70786.35160092179,
+            "business_hours": [],
+            "attributes": {
+                "business_temp_closed": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "cWXWnnQvtBvKWz8CLylJtA",
+            "alias": "enssaro-ethiopian-restaurant-oakland-9",
+            "name": "Enssaro Ethiopian Restaurant",
+            "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/IjDEb4cMpn55wV3Lb5i7KA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/enssaro-ethiopian-restaurant-oakland-9?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 1686,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4.2,
+            "coordinates": {
+                "latitude": 37.8088789433241,
+                "longitude": -122.255792319775
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "357A Grand Ave",
+                "address2": null,
+                "address3": "",
+                "city": "Oakland",
+                "zip_code": "94610",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "357A Grand Ave",
+                    "Oakland, CA 94610"
+                ]
+            },
+            "phone": "+15102389050",
+            "display_phone": "(510) 238-9050",
+            "distance": 62308.410815201,
+            "business_hours": [
+                {
+                    "open": [
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 0
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 2
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2200",
+                            "day": 3
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1100",
+                            "end": "2300",
+                            "day": 4
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2300",
+                            "day": 5
+                        },
+                        {
+                            "is_overnight": false,
+                            "start": "1130",
+                            "end": "2200",
+                            "day": 6
+                        }
+                    ],
+                    "hours_type": "REGULAR",
+                    "is_open_now": true
+                }
+            ],
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "https://gotab.io/loc/enssaroethiopianrestaurant/menu/food",
+                "open24_hours": null,
+                "waitlist_reservation": false
+            }
+        },
+        {
+            "id": "TjwmBSOH18BhEsJslxWnDg",
+            "alias": "mid-coast-engineers-watsonville",
+            "name": "Mid Coast Engineers",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mid-coast-engineers-watsonville?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 1,
+            "categories": [],
+            "rating": 2.0,
+            "coordinates": {
+                "latitude": 36.9313583374023,
+                "longitude": -121.778526306152
+            },
+            "transactions": [],
+            "location": {
+                "address1": "70 Penny Ln",
+                "address2": "Ste A",
+                "address3": "",
+                "city": "Watsonville",
+                "zip_code": "95076",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "70 Penny Ln",
+                    "Ste A",
+                    "Watsonville, CA 95076"
+                ]
+            },
+            "phone": "+18317242580",
+            "display_phone": "(831) 724-2580",
+            "distance": 45483.78437007922,
+            "business_hours": [],
+            "attributes": {
+                "business_temp_closed": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "6zLJlFrlts5VI5rRe7l8-Q",
+            "alias": "kenyas-hair-braids-oakland",
+            "name": "Kenya's Hair Braids",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kenyas-hair-braids-oakland?adjust_creative=kGLc5rS92aAT8VFs-Ba1Fg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kGLc5rS92aAT8VFs-Ba1Fg",
+            "review_count": 0,
+            "categories": [],
+            "rating": 0.0,
+            "coordinates": {
+                "latitude": 37.74173,
+                "longitude": -122.14897
+            },
+            "transactions": [],
+            "location": {
+                "address1": "2637 109th Ave",
+                "address2": null,
+                "address3": null,
+                "city": "Oakland",
+                "zip_code": "94605",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2637 109th Ave",
+                    "Oakland, CA 94605"
+                ]
+            },
+            "phone": "+15105692648",
+            "display_phone": "(510) 569-2648",
+            "distance": 51206.496179593414,
+            "business_hours": [],
+            "attributes": {
+                "business_temp_closed": null,
+                "waitlist_reservation": null
+            }
+        }
+    ],
+    "total": 20,
+    "region": {
+        "center": {
+            "longitude": -121.88541412353516,
+            "latitude": 37.33139143565069
+        }
+    }
+}
