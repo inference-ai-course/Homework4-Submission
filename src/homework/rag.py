@@ -17,17 +17,8 @@ class RAGClass:
         self.data_path = data_path
         self.documents = []
         self.text_chunks = []
-        self.vectorstore = None
-        self.retriever = None
-        self.qa_chain = None
-        self.model = ChatOllama(
-            model="llama3",
-            base_url="http://localhost:11434" ,
-            temperature=0,
-        )
-        self.agent = None
         self.faiss_index = None
-        self.embedding_model = OllamaEmbeddings(model="llama3");
+        self.embedding_model = OllamaEmbeddings(model="nomic-embed-text");
 
     def load_documents(self):
         """
