@@ -371,3 +371,8 @@ For issues or questions:
 ---
 
 **Built with ❤️ for Week 4 of ML Engineer in Generative AI Era**
+
+Output
+<img width="2041" height="1139" alt="image" src="https://github.com/user-attachments/assets/b29bec20-52b8-49f6-a7db-a0e5daea7c24" />
+<img width="2041" height="1139" alt="image" src="https://github.com/user-attachments/assets/374f6c9d-8d8a-4e26-9ae8-2c8db35170a6" />
+
