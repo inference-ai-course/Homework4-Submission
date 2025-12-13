@@ -1,0 +1,191 @@
+2025-11-18 15:57:03.641 | INFO     | modules.document_loader:__init__:27 - DocumentLoader initialized. Upload directory: data/uploads
+2025-11-18 15:57:03.641 | INFO     | modules.text_processor:__init__:42 - TextProcessor initialized: chunk_size=800, overlap=80
+2025-11-18 15:57:03.641 | INFO     | __main__:__init__:72 - ResumeBrain application initialized
+2025-11-18 15:57:03.747 | INFO     | __main__:main:352 - Launching Gradio interface...
+2025-11-18 15:58:21.067 | INFO     | __main__:process_resume:109 - Processing resume upload: /private/var/folders/lq/pcvfsmwd19b48bsl65k3th5r0000gn/T/gradio/a28275c13a5bf77245b2360e8ca55439b689a8d439c8cc77e8923aaa0fcd48b6/Xu Emma Wang - Resume - AI Project Manager Technical Solutions Design Strategy.pdf
+2025-11-18 15:58:21.068 | INFO     | __main__:initialize_models:78 - Initializing embedding engine...
+2025-11-18 15:58:21.068 | INFO     | modules.embedding_engine:__init__:29 - EmbeddingEngine initialized with model: hf.co/CompendiumLabs/bge-base-en-v1.5-gguf
+2025-11-18 15:58:21.582 | INFO     | modules.embedding_engine:_test_connection:43 - Ollama connection successful. Embedding dimension: 768
+2025-11-18 15:58:21.582 | INFO     | __main__:initialize_models:86 - Initializing vector store...
+2025-11-18 15:58:21.582 | INFO     | modules.vector_store:__init__:36 - VectorStore initialized: data/vector_db / resume_chunks
+2025-11-18 15:58:21.584 | INFO     | modules.document_loader:save_uploaded_file:176 - File saved to: data/uploads/Xu Emma Wang - Resume - AI Project Manager Technical Solutions Design Strategy.pdf
+2025-11-18 15:58:21.584 | INFO     | modules.document_loader:validate_file:55 - File validation passed: Xu Emma Wang - Resume - AI Project Manager Technical Solutions Design Strategy.pdf (0.12MB)
+2025-11-18 15:58:21.895 | INFO     | modules.document_loader:extract_text:109 - Successfully extracted text: 4 pages, 3719 tokens
+2025-11-18 15:58:21.895 | INFO     | modules.text_processor:chunk_text:87 - Created 25 chunks from text (avg size: 610 chars)
+2025-11-18 15:58:21.895 | INFO     | modules.vector_store:clear_collection:217 - Clearing vector store collection...
+2025-11-18 15:58:21.895 | INFO     | modules.vector_store:clear_collection:222 - Persist directory removed
+2025-11-18 15:58:21.896 | INFO     | modules.vector_store:clear_collection:230 - Vector store cleared successfully
+2025-11-18 15:58:21.896 | INFO     | modules.vector_store:create_vectorstore:54 - Creating vector store with 25 documents...
+2025-11-18 15:58:23.136 | INFO     | modules.vector_store:create_vectorstore:67 - Vector store created successfully with 25 documents
+2025-11-18 15:58:23.137 | ERROR    | modules.retrieval_chain:__init__:54 - Error initializing LLM: 1 validation error for Ollama
+num_predict
+  extra fields not permitted (type=value_error.extra)
+2025-11-18 15:58:23.137 | ERROR    | __main__:process_resume:196 - ❌ Error processing resume: 1 validation error for Ollama
+num_predict
+  extra fields not permitted (type=value_error.extra)
+2025-11-18 16:09:48.018 | INFO     | modules.document_loader:__init__:27 - DocumentLoader initialized. Upload directory: data/uploads
+2025-11-18 16:09:48.018 | INFO     | modules.text_processor:__init__:42 - TextProcessor initialized: chunk_size=800, overlap=80
+2025-11-18 16:09:48.018 | INFO     | __main__:__init__:72 - ResumeBrain application initialized
+2025-11-18 16:09:48.125 | INFO     | __main__:main:352 - Launching Gradio interface...
+2025-11-18 16:10:38.903 | INFO     | __main__:process_resume:109 - Processing resume upload: /private/var/folders/lq/pcvfsmwd19b48bsl65k3th5r0000gn/T/gradio/a28275c13a5bf77245b2360e8ca55439b689a8d439c8cc77e8923aaa0fcd48b6/Xu Emma Wang - Resume - AI Project Manager Technical Solutions Design Strategy.pdf
+2025-11-18 16:10:38.903 | INFO     | __main__:initialize_models:78 - Initializing embedding engine...
+2025-11-18 16:10:38.903 | INFO     | modules.embedding_engine:__init__:29 - EmbeddingEngine initialized with model: hf.co/CompendiumLabs/bge-base-en-v1.5-gguf
+2025-11-18 16:10:39.504 | INFO     | modules.embedding_engine:_test_connection:43 - Ollama connection successful. Embedding dimension: 768
+2025-11-18 16:10:39.504 | INFO     | __main__:initialize_models:86 - Initializing vector store...
+2025-11-18 16:10:39.505 | INFO     | modules.vector_store:__init__:36 - VectorStore initialized: data/vector_db / resume_chunks
+2025-11-18 16:10:39.506 | INFO     | modules.document_loader:save_uploaded_file:176 - File saved to: data/uploads/Xu Emma Wang - Resume - AI Project Manager Technical Solutions Design Strategy_1.pdf
+2025-11-18 16:10:39.506 | INFO     | modules.document_loader:validate_file:55 - File validation passed: Xu Emma Wang - Resume - AI Project Manager Technical Solutions Design Strategy_1.pdf (0.12MB)
+2025-11-18 16:10:39.788 | INFO     | modules.document_loader:extract_text:109 - Successfully extracted text: 4 pages, 3719 tokens
+2025-11-18 16:10:39.788 | INFO     | modules.text_processor:chunk_text:87 - Created 25 chunks from text (avg size: 610 chars)
+2025-11-18 16:10:39.788 | INFO     | modules.vector_store:clear_collection:217 - Clearing vector store collection...
+2025-11-18 16:10:39.789 | INFO     | modules.vector_store:clear_collection:222 - Persist directory removed
+2025-11-18 16:10:39.790 | INFO     | modules.vector_store:clear_collection:230 - Vector store cleared successfully
+2025-11-18 16:10:39.790 | INFO     | modules.vector_store:create_vectorstore:54 - Creating vector store with 25 documents...
+2025-11-18 16:10:40.671 | INFO     | modules.vector_store:create_vectorstore:67 - Vector store created successfully with 25 documents
+2025-11-18 16:10:40.672 | INFO     | modules.retrieval_chain:__init__:50 - LLM initialized: hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF (max_tokens=512 configured but not enforced)
+2025-11-18 16:10:47.584 | INFO     | modules.retrieval_chain:_test_llm_connection:63 - LLM connection successful
+2025-11-18 16:10:47.585 | INFO     | modules.retrieval_chain:build_qa_chain:85 - Building RetrievalQA chain...
+2025-11-18 16:10:47.587 | INFO     | modules.retrieval_chain:build_qa_chain:124 - RetrievalQA chain built successfully
+2025-11-18 16:10:47.588 | INFO     | __main__:process_resume:191 - Resume processing completed successfully
+2025-11-18 16:13:59.151 | INFO     | __main__:answer_question:208 - Answering question: Who are the applicants?
+2025-11-18 16:13:59.152 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'Who are the applicants?...' (top 3)
+2025-11-18 16:13:59.236 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:13:59.236 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'Who are the applicants?...'
+2025-11-18 16:14:00.145 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:14:00.145 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:17:22.237 | INFO     | __main__:answer_question:208 - Answering question: Ok, I saw the applicant's name is Xu Emma Wang.  What is the latest company and position she worked for?  
+2025-11-18 16:17:22.237 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'Ok, I saw the applicant's name is Xu Emma Wang.  W...' (top 3)
+2025-11-18 16:17:22.432 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:17:22.432 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'Ok, I saw the applicant's name is Xu Emma Wang.  What is the latest company and position she worked ...'
+2025-11-18 16:17:23.825 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:17:23.825 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:18:06.463 | INFO     | __main__:answer_question:208 - Answering question: What is the resume owner's name?
+2025-11-18 16:18:06.464 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What is the resume owner's name?...' (top 3)
+2025-11-18 16:18:06.603 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:18:06.603 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'What is the resume owner's name?...'
+2025-11-18 16:18:06.935 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:18:06.936 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:18:16.950 | INFO     | __main__:answer_question:208 - Answering question: What is the domain field and how many years of experience?
+2025-11-18 16:18:16.950 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What is the domain field and how many years of exp...' (top 3)
+2025-11-18 16:18:17.035 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:18:17.035 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'What is the domain field and how many years of experience?...'
+2025-11-18 16:18:17.799 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:18:17.799 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:18:43.952 | INFO     | __main__:answer_question:208 - Answering question: What major projects has the candidate contributed to?
+2025-11-18 16:18:43.953 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What major projects has the candidate contributed ...' (top 3)
+2025-11-18 16:18:44.003 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:18:44.003 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'What major projects has the candidate contributed to?...'
+2025-11-18 16:18:45.354 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:18:45.354 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:19:19.776 | INFO     | __main__:answer_question:208 - Answering question: List the main technical skills.
+2025-11-18 16:19:19.777 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'List the main technical skills....' (top 3)
+2025-11-18 16:19:19.847 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:19:19.848 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'List the main technical skills....'
+2025-11-18 16:19:21.444 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:19:21.445 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:19:51.301 | INFO     | __main__:answer_question:208 - Answering question: Which projects included NLP or AI?
+2025-11-18 16:19:51.302 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'Which projects included NLP or AI?...' (top 3)
+2025-11-18 16:19:51.344 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:19:51.344 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'Which projects included NLP or AI?...'
+2025-11-18 16:19:52.830 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:19:52.831 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:20:50.128 | INFO     | __main__:answer_question:208 - Answering question: What is the latest company and position she worked for?
+2025-11-18 16:20:50.129 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What is the latest company and position she worked...' (top 3)
+2025-11-18 16:20:50.223 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:20:50.223 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'What is the latest company and position she worked for?...'
+2025-11-18 16:20:50.887 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:20:50.887 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:22:35.157 | INFO     | __main__:answer_question:208 - Answering question: From Xu Emma Wang's resume, her latest company was with Bell Mobility, her position there was Senior Technical Architect.
+2025-11-18 16:22:35.159 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'From Xu Emma Wang's resume, her latest company was...' (top 3)
+2025-11-18 16:22:35.233 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:22:35.233 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'From Xu Emma Wang's resume, her latest company was with Bell Mobility, her position there was Senior...'
+2025-11-18 16:22:36.411 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:22:36.412 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:26:25.546 | INFO     | __main__:answer_question:208 - Answering question: What language the resume owner can speak?
+2025-11-18 16:26:25.548 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What language the resume owner can speak?...' (top 3)
+2025-11-18 16:26:25.630 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:26:25.630 | INFO     | modules.retrieval_chain:query:157 - Processing query: 'What language the resume owner can speak?...'
+2025-11-18 16:26:26.051 | INFO     | modules.retrieval_chain:query:166 - Query completed. Retrieved 3 source documents
+2025-11-18 16:26:26.051 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:45:54.918 | INFO     | __main__:process_resume:109 - Processing resume upload: /private/var/folders/lq/pcvfsmwd19b48bsl65k3th5r0000gn/T/gradio/ab9ec0e949116441acbd98ae8cca731925b554693e8422bc3c2263aedb190275/Xu Emma Wang - Resume - Product Manager_Coordinator_Technical Solutions.pdf
+2025-11-18 16:45:54.921 | INFO     | modules.document_loader:save_uploaded_file:176 - File saved to: data/uploads/Xu Emma Wang - Resume - Product Manager_Coordinator_Technical Solutions.pdf
+2025-11-18 16:45:54.922 | INFO     | modules.document_loader:validate_file:55 - File validation passed: Xu Emma Wang - Resume - Product Manager_Coordinator_Technical Solutions.pdf (0.17MB)
+2025-11-18 16:45:55.102 | INFO     | modules.document_loader:extract_text:109 - Successfully extracted text: 3 pages, 3075 tokens
+2025-11-18 16:45:55.103 | INFO     | modules.text_processor:chunk_text:87 - Created 21 chunks from text (avg size: 598 chars)
+2025-11-18 16:45:55.103 | INFO     | modules.vector_store:clear_collection:217 - Clearing vector store collection...
+2025-11-18 16:45:55.103 | INFO     | modules.vector_store:clear_collection:222 - Persist directory removed
+2025-11-18 16:45:55.103 | INFO     | modules.vector_store:clear_collection:230 - Vector store cleared successfully
+2025-11-18 16:45:55.103 | INFO     | modules.vector_store:create_vectorstore:54 - Creating vector store with 21 documents...
+2025-11-18 16:45:55.112 | ERROR    | modules.vector_store:create_vectorstore:71 - Error creating vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-11-18 16:47:36.258 | INFO     | modules.document_loader:__init__:27 - DocumentLoader initialized. Upload directory: data/uploads
+2025-11-18 16:47:36.258 | INFO     | modules.text_processor:__init__:42 - TextProcessor initialized: chunk_size=800, overlap=80
+2025-11-18 16:47:36.258 | INFO     | __main__:__init__:72 - ResumeBrain application initialized
+2025-11-18 16:47:36.363 | INFO     | __main__:main:352 - Launching Gradio interface...
+2025-11-18 16:47:48.202 | INFO     | __main__:process_resume:109 - Processing resume upload: /private/var/folders/lq/pcvfsmwd19b48bsl65k3th5r0000gn/T/gradio/ab9ec0e949116441acbd98ae8cca731925b554693e8422bc3c2263aedb190275/Xu Emma Wang - Resume - Product Manager_Coordinator_Technical Solutions.pdf
+2025-11-18 16:47:48.203 | INFO     | __main__:initialize_models:78 - Initializing embedding engine...
+2025-11-18 16:47:48.203 | INFO     | modules.embedding_engine:__init__:29 - EmbeddingEngine initialized with model: hf.co/CompendiumLabs/bge-base-en-v1.5-gguf
+2025-11-18 16:47:48.668 | INFO     | modules.embedding_engine:_test_connection:43 - Ollama connection successful. Embedding dimension: 768
+2025-11-18 16:47:48.668 | INFO     | __main__:initialize_models:86 - Initializing vector store...
+2025-11-18 16:47:48.668 | INFO     | modules.vector_store:__init__:36 - VectorStore initialized: data/vector_db / resume_chunks
+2025-11-18 16:47:48.669 | INFO     | modules.document_loader:save_uploaded_file:176 - File saved to: data/uploads/Xu Emma Wang - Resume - Product Manager_Coordinator_Technical Solutions_1.pdf
+2025-11-18 16:47:48.670 | INFO     | modules.document_loader:validate_file:55 - File validation passed: Xu Emma Wang - Resume - Product Manager_Coordinator_Technical Solutions_1.pdf (0.17MB)
+2025-11-18 16:47:48.888 | INFO     | modules.document_loader:extract_text:109 - Successfully extracted text: 3 pages, 3075 tokens
+2025-11-18 16:47:48.889 | INFO     | modules.text_processor:chunk_text:87 - Created 21 chunks from text (avg size: 598 chars)
+2025-11-18 16:47:48.889 | INFO     | modules.vector_store:clear_collection:217 - Clearing vector store collection...
+2025-11-18 16:47:48.889 | INFO     | modules.vector_store:clear_collection:222 - Persist directory removed
+2025-11-18 16:47:48.889 | INFO     | modules.vector_store:clear_collection:230 - Vector store cleared successfully
+2025-11-18 16:47:48.889 | INFO     | modules.vector_store:create_vectorstore:54 - Creating vector store with 21 documents...
+2025-11-18 16:47:49.815 | INFO     | modules.vector_store:create_vectorstore:67 - Vector store created successfully with 21 documents
+2025-11-18 16:47:49.817 | INFO     | modules.retrieval_chain:__init__:50 - LLM initialized: hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF (max_tokens=512 configured but not enforced)
+2025-11-18 16:47:51.500 | INFO     | modules.retrieval_chain:_test_llm_connection:63 - LLM connection successful
+2025-11-18 16:47:51.500 | INFO     | modules.retrieval_chain:build_qa_chain:85 - Building RetrievalQA chain...
+2025-11-18 16:47:51.501 | INFO     | modules.retrieval_chain:build_qa_chain:129 - RetrievalQA chain built successfully
+2025-11-18 16:47:51.502 | INFO     | __main__:process_resume:191 - Resume processing completed successfully
+2025-11-18 16:48:03.523 | INFO     | __main__:answer_question:208 - Answering question: Which projects included NLP or AI?
+2025-11-18 16:48:03.523 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'Which projects included NLP or AI?...' (top 3)
+2025-11-18 16:48:03.619 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:48:03.619 | INFO     | modules.retrieval_chain:query:162 - Processing query: 'Which projects included NLP or AI?...'
+2025-11-18 16:48:05.229 | INFO     | modules.retrieval_chain:query:171 - Query completed. Retrieved 3 source documents
+2025-11-18 16:48:05.229 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:48:37.308 | INFO     | __main__:answer_question:208 - Answering question: What is the resume owner's name?
+2025-11-18 16:48:37.309 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What is the resume owner's name?...' (top 3)
+2025-11-18 16:48:37.348 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:48:37.349 | INFO     | modules.retrieval_chain:query:162 - Processing query: 'What is the resume owner's name?...'
+2025-11-18 16:48:37.968 | INFO     | modules.retrieval_chain:query:171 - Query completed. Retrieved 3 source documents
+2025-11-18 16:48:37.969 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:48:46.023 | INFO     | __main__:answer_question:208 - Answering question: List the main technical skills.
+2025-11-18 16:48:46.023 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'List the main technical skills....' (top 3)
+2025-11-18 16:48:46.066 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:48:46.066 | INFO     | modules.retrieval_chain:query:162 - Processing query: 'List the main technical skills....'
+2025-11-18 16:48:47.722 | INFO     | modules.retrieval_chain:query:171 - Query completed. Retrieved 3 source documents
+2025-11-18 16:48:47.723 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:48:55.033 | INFO     | __main__:answer_question:208 - Answering question: What major projects has the candidate contributed to?
+2025-11-18 16:48:55.034 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What major projects has the candidate contributed ...' (top 3)
+2025-11-18 16:48:55.083 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:48:55.084 | INFO     | modules.retrieval_chain:query:162 - Processing query: 'What major projects has the candidate contributed to?...'
+2025-11-18 16:48:55.933 | INFO     | modules.retrieval_chain:query:171 - Query completed. Retrieved 3 source documents
+2025-11-18 16:48:55.934 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:49:26.748 | INFO     | __main__:answer_question:208 - Answering question: What is the resume owner's latest company?
+2025-11-18 16:49:26.749 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What is the resume owner's latest company?...' (top 3)
+2025-11-18 16:49:26.791 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:49:26.792 | INFO     | modules.retrieval_chain:query:162 - Processing query: 'What is the resume owner's latest company?...'
+2025-11-18 16:49:27.823 | INFO     | modules.retrieval_chain:query:171 - Query completed. Retrieved 3 source documents
+2025-11-18 16:49:27.824 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:50:18.647 | INFO     | __main__:answer_question:208 - Answering question: What language the resume owner can speak?
+2025-11-18 16:50:18.648 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What language the resume owner can speak?...' (top 3)
+2025-11-18 16:50:18.722 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:50:18.723 | INFO     | modules.retrieval_chain:query:162 - Processing query: 'What language the resume owner can speak?...'
+2025-11-18 16:50:19.166 | INFO     | modules.retrieval_chain:query:171 - Query completed. Retrieved 3 source documents
+2025-11-18 16:50:19.166 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:51:07.309 | INFO     | __main__:answer_question:208 - Answering question: How about education background?
+2025-11-18 16:51:07.314 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'How about education background?...' (top 3)
+2025-11-18 16:51:07.388 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:51:07.388 | INFO     | modules.retrieval_chain:query:162 - Processing query: 'How about education background?...'
+2025-11-18 16:51:08.411 | INFO     | modules.retrieval_chain:query:171 - Query completed. Retrieved 3 source documents
+2025-11-18 16:51:08.411 | INFO     | __main__:answer_question:229 - Question answered successfully
+2025-11-18 16:52:04.529 | INFO     | __main__:answer_question:208 - Answering question: What is the highest education level of the resume owner?
+2025-11-18 16:52:04.531 | INFO     | modules.vector_store:similarity_search:137 - Performing similarity search for: 'What is the highest education level of the resume ...' (top 3)
+2025-11-18 16:52:04.633 | INFO     | modules.vector_store:similarity_search:151 - Found 3 relevant chunks
+2025-11-18 16:52:04.633 | INFO     | modules.retrieval_chain:query:162 - Processing query: 'What is the highest education level of the resume owner?...'
+2025-11-18 16:52:05.409 | INFO     | modules.retrieval_chain:query:171 - Query completed. Retrieved 3 source documents
+2025-11-18 16:52:05.409 | INFO     | __main__:answer_question:229 - Question answered successfully

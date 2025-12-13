@@ -1,0 +1,45 @@
+# ResumeBrain Configuration File
+
+# Model Settings
+models:
+  embedding_model: "hf.co/CompendiumLabs/bge-base-en-v1.5-gguf"
+  llm_model: "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF"
+  
+# Text Chunking Parameters
+chunking:
+  chunk_size: 800  # Characters (approximately 500 tokens)
+  chunk_overlap: 80  # 10% overlap
+  separators: ["\n\n", "\n", ". ", " ", ""]
+  
+# Retrieval Settings
+retrieval:
+  top_k: 3  # Number of chunks to retrieve
+  similarity_threshold: 0.5  # Minimum similarity score
+  
+# Vector Database
+vector_db:
+  persist_directory: "./data/vector_db"
+  collection_name: "resume_chunks"
+  
+# File Upload Settings
+upload:
+  max_file_size_mb: 10
+  allowed_extensions: [".pdf"]
+  upload_directory: "./data/uploads"
+  
+# LLM Generation Settings
+generation:
+  temperature: 0.1  # Low temperature for factual responses
+  max_tokens: 512
+  stream: true
+  
+# UI Settings
+ui:
+  title: "ResumeBrain - RAG-Powered Resume Intelligence"
+  description: "Upload your resume and ask questions about it!"
+  theme: "default"
+  
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_file: "./logs/resumebrain.log"
